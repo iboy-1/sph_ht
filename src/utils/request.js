@@ -5,7 +5,7 @@ import { getToken } from '@/utils/auth'
 
 // create an axios instance
 const service = axios.create({
-  baseURL: 'https://sph-3ihgweof9-iboy-1.vercel.app/my_api', // url = base url + request url
+  baseURL: 'https://sph-ht.vercel.app/my_api', // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
   timeout: 5000 // request timeout
 })
